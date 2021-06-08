@@ -80,10 +80,18 @@ header {
   text-align: center;
 }
 
+.contact a {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
 .contact__links {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: justify;
+  max-width: 60%;
+  margin: auto;
 }
 
 /* FOOTER */
