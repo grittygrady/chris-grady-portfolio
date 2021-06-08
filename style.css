@@ -1,4 +1,20 @@
-/* ROOT RESET */
+/* FONT IMPORT - GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,600&display=swap');
+
+/* RULES FOR FONTS */
+/* font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif; */
+
+/* VARIABLES */
+:root {
+  --clr-drk-gray: #31393cff;
+  --clr-med-blue: rgb(20, 32, 141);
+  --clr-lit-white: #f7fff7ff;
+  --clr-accent: #ca9ce1ff;
+  --clr-lit-blue: #49b6ffff;
+}
+
+/* RESET */
 *,
 *::before,
 *::after {
@@ -10,6 +26,18 @@
 img {
   max-width: 100%;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-lit-white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-lit-blue);
+  font-family: 'Poppins', sans-serif;
+}
+
 /* UTILITY CLASSES */
 
 .wrapper {
@@ -33,6 +61,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  background-color: var(--clr-med-blue);
+  color: var(--clr-lit-white);
+  border-bottom: 1px solid var(--clr-accent);
+  border-radius: 0 0 2px 2px;
+}
+
+.header__logo {
+  padding: 0.7em;
 }
 
 .header__links {
@@ -40,30 +76,82 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
+  padding: 0.7rem;
 }
 
 /* MAIN */
 
+main {
+  background-color: var(--clr-drk-gray);
+}
+
 /* HERO */
+
+.hero {
+  padding-top: 1.7em;
+  padding-bottom: 1em;
+}
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-accent);
+  font-weight: 500;
+  font-size: 2.36rem;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+.hero img {
+  border-radius: 13px;
+}
 
 .hero__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  position: relative;
+}
+
+.hero__text {
+  position: absolute;
+  top: 8%;
+  right: 10%;
+  text-align: right;
+  color: #fff;
+}
+
+.hero__text span {
+  font-weight: 800;
 }
 
 /* PROJECTS */
+
+.projects h2 {
+  text-align: center;
+  padding: 0.75rem 0;
+}
+
 .project__box {
   display: flex;
+  flex-direction: column;
 }
 
 .project__card {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   border-radius: 1rem;
-  box-shadow: 2px 2px 3px #45765e;
+  box-shadow: 1px 1px 5px 0px var(--clr-accent);
+  margin-bottom: 1rem;
+  background-color: var(--clr-lit-blue);
+  color: var(--clr-drk-gray);
+}
+
+.project__card__tech {
+  margin-left: 1rem;
 }
 
 .project__card img {
@@ -76,13 +164,23 @@ header {
 }
 
 /* CONTACT */
+
+.contact {
+  padding: 1em 0 1.5em 0;
+  background-color: var(--clr-lit-blue);
+  color: var(--clr-drk-gray);
+  border-radius: 3px 3px 0 0;
+}
+
 .contact h2 {
   text-align: center;
+  padding-bottom: 0.3em;
+  font-size: 2rem;
 }
 
 .contact a {
-  text-decoration: none;
   margin-left: 1rem;
+  color: var(--clr-drk-gray);
 }
 
 .contact__links {
@@ -90,11 +188,15 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: justify;
+  font-size: 1.2rem;
   max-width: 60%;
   margin: auto;
 }
 
 /* FOOTER */
 footer {
+  background-color: var(--clr-med-blue);
+  padding: 1em 0;
   text-align: center;
+  border-radius: 2px 2px 0 0;
 }
