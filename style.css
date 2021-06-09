@@ -75,6 +75,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
+
   align-items: flex-start;
   background-color: var(--clr-med-blue);
   color: var(--clr-lit-white);
@@ -83,7 +84,10 @@ header {
 }
 
 .header__logo {
-  padding: 0.7em;
+  font-family: 'Poiret One', sans-serif;
+  padding: 0.6em;
+  font-size: 1.1rem;
+  align-self: center;
 }
 
 .header__links {
@@ -91,7 +95,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
-  padding: 0.7rem;
+  padding: 0.7em;
 }
 
 /* MAIN */
@@ -240,7 +244,6 @@ main {
 
 .contact {
   padding: 1em 0 1.5em 0;
-  background-color: var(--clr-lit-blue);
   color: var(--clr-drk-gray);
   border-radius: 3px 3px 0 0;
 }
@@ -255,7 +258,7 @@ main {
 
 .contact a {
   margin-left: 1rem;
-  color: var(--clr-drk-gray);
+  color: var(--clr-lit-blue);
   display: inline;
 }
 
@@ -273,6 +276,7 @@ main {
 .contact__links i,
 .contact__links a {
   font-weight: 500;
+  color: var(--clr-lit-blue);
 }
 
 /* FOOTER */
@@ -280,6 +284,5 @@ footer {
   background-color: var(--clr-med-blue);
   padding: 1em 0;
   text-align: center;
-  border-radius: 2px 2px 0 0;
   font-size: 0.7rem;
 }
