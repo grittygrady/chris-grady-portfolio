@@ -20,8 +20,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi ips
 
 ## ComiCombat
 
+<img src="https://github.com/grittygrady/chris-grady-portfolio/blob/main/images/comicombat.png?raw=true">
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi ipsum debitis totam cumque veniam fuga perspiciatis! Quisquam, hic in.
 
 ## Real Websites for Fake People
+
+<img src="https://github.com/grittygrady/chris-grady-portfolio/blob/main/images/remylabeau.png?raw=true">
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi ipsum debitis totam cumque veniam fuga perspiciatis! Quisquam, hic in.
