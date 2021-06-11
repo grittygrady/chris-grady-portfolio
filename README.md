@@ -14,6 +14,8 @@
 
 ## Movie vs Movie
 
+<img src="https://github.com/grittygrady/chris-grady-portfolio/blob/main/images/movievsmovie.png?raw=true">
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi ipsum debitis totam cumque veniam fuga perspiciatis! Quisquam, hic in.
 
 ## ComiCombat
