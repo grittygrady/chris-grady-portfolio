@@ -482,4 +482,34 @@ footer {
     width: 40%;
     margin-left: 3.5em;
   }
+
+  .project__box {
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    justify-items: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+  }
+
+  .project__card {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 30%;
+  }
+
+  .project__card__text {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .card__main__text {
+    max-width: 100%;
+  }
+
+  .card__details {
+    flex-direction: column;
+    max-width: 100%;
+  }
 }
