@@ -399,4 +399,31 @@ footer {
   .project__card__tech {
     margin-left: 0;
   }
+
+  .contact h2 {
+    font-size: 4.3rem;
+  }
+
+  .contact__links {
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .contact a {
+    margin-left: 0.25rem;
+  }
+
+  .contact i {
+    margin-left: 0.9rem;
+  }
+
+  .contact__links i,
+  .contact__links a {
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+
+  footer {
+    font-size: 1.1rem;
+  }
 }
